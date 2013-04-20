@@ -1,0 +1,164 @@
+
+body{
+	background:#fff;
+	color:#000;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:16px;
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/*--------TOP PAGE CSS------------*/
+.top_container{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	height:550px;
+	background-image:	url(images/bg_slide-top1.jpg);
+}
+.top_wrapper{
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+.rentsearch{width: 580px;
+margin: 182px 0 0 205px;
+height: 65px;}
+.rentsearch ul{list-style:none; padding:0;}
+ .kasu {float:left;}
+.rentsearch ul li a {display:block;}
+section{margin: 20px 0 0 70px;
+height: 230px;width: 910px;}
+.section_box{
+	display: block;
+	float: left;
+	width: 270px;
+	height:200px;
+	position: relative;
+	margin:0 20px 30px 0px;
+	background-image:url(images/20120614_738f3d.jpg);
+}
+
+ul#list{ width: 270px;}
+ul#list li{	float: left;
+	list-style: none;}
+ul#list a{display: block;text-decoration: none;color: #000;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;font-weight:bold;
+	position: relative;
+	-moz-transition: all 0.6s ease-out 0s;
+	float: left;display: block;
+	font-size: 14px;}
+
+
+ul#list ul{
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;}
+
+ul#list li li {float: none;}
+
+ul#list li:hover ul {display: block;	
+	width: 260px;height:34px;}
+
+.firstmenu1{margin-top: 60px;}
+.firstmenu1,.menu1,.lastmenu2{background-color:#f1f2f2;}
+.menu2{background-color:#e6e7e8;}
+
+.firstmenu1,.menu1,.menu2,.lastmenu2{border-left: 1px #231f20 solid;border-right: 1px #231f20 solid;display: block;width: 240px;height:26px;font-weight: bold;padding-left: 20px; padding-top:8px;margin-left: 5px;}
+
+.lastmenu2{border-bottom: 1px #231f20 solid;}
+ul#list li.hov-menu:hover a{color: #000;
+}
+
+.firstmenu1:hover,.menu1:hover,.menu2:hover,.lastmenu2:hover {	background:url(images/bar_01.jpg);
+	color: #fff;}
+ul#list li.hov-menu{padding-right:10px;}
+
+.content{width:980px;margin:0 auto;background:white;}
+.headnav a {
+	text-decoration: none;
+	color: #000;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: normal;
+	position: relative;
+	-moz-transition: all 0.6s ease-out 0s;
+	float: left;
+    height: 28px;
+	display: block;
+	font-size: 12px;
+	padding-right:10px;
+}
+
+/*---------header start------------*/
+header {
+	background-image:url(images/bar_02.jpg);	height: 49px;
+	width: 100%;
+	position: relative;
+	display: block;
+	margin:0 auto;
+	border-bottom:1px black solid;
+}
+
+
+h1 {padding:10px;margin:0;
+	display: block;
+	float: left;
+	height: 28px;
+	width: 140px;
+	position: relative;
+	
+}
+header img{display:block;float:left;}
+
+
+.headnav {
+	display: block;	float: left;
+	height: 28px;
+	width: 460px;
+	position: relative;
+	padding:10px 0;
+}
+
+.headnav ul{list-style-type:none;padding;0;margin:0;padding-top:5px;}
+.headnav ul li{float:left;}
+
+/*---------header end------------*/
+
+
+
+
+
+/*------------left side bar------------*/
+#leftsidebar{width:235px;margin-top:10px;float:left;}
+#leftsidebar img{display:block;}
+
+.left_box2{width:235px;height:180px;background:#E6E7E8;border-radius:3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;border:1px black solid; margin-top:10px;}
+
+.left_box2 p{font-size:13px;font-weight:bold;padding-top:10px;width:190px;margin:0 auto;}
+.left_box2,.left_box3{padding-top:10px;}
+.left_box3{display:block;border:1px}
+
+.member{display:block;width:190px;margin:0 auto;padding:0;}
+
+.forgot{color#939598;width:190px;height:32px;margin:0 auto;padding-top:10px;}
+.forgot p{font-size:12px;font-weight:normal;width:120px;float:left; padding-right: 10px;padding-top: 0;}
+.loginbtn{padding:0;margin:0;float:left;}
+
+.login{width:190px;margin:0 auto;border-radius:3px;-moz-border-radius: 3px;
+-webkit-border-radius: 3px;display:block;}
+.login img{float:right;}
+
+.detail{list-style-type:none;padding:0;margin:0;}
+
+.detail li{background-image:url(images/leftbar.jpg);background-repeat:no-repeat;height:32px;}
+.detail li a{text-decoration:none;font-size:13px;padding-left:20px;padding-top:6px;display:block;color:#000;}
+.detail li a:hover{color:#1c75bc;}
+
+.activebtn{color:#1c75bc;}
+
+
+.bgtitle2{background-image:url(images/dotto.jpg);background-repeat:no-repeat;padding-left: 29px;margin-top:10px;font-size: 18px;font-weight: bold;margin-left: 20px;display: block;
+background-position-y: 3px;
+}
+

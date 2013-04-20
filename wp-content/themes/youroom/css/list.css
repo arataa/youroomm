@@ -1,0 +1,51 @@
+@import url('../style.css');
+
+img{border:none;outline:none;}
+.content{width:980px;margin:0 auto;background:white;}
+/*---------header start---------------*/
+header {
+	width: 100%;
+	height:210px;
+	position: relative;
+	display: block;
+	margin:0 auto;
+}
+
+.searchbar{background-image:url(../images/bar_02.jpg);width:100%;height:50px;margin:0;padding:0;float:left;}
+h1{margin:0;float:left;padding:10px 15px 0 15px;float: left;}
+.logo{display:block;}
+.place,.rentbtn{display:block;float:left;position:relative;}
+.place{padding-top:10px;}
+.rentbtn{float:right;padding-top:5px;padding-right: 10px;}
+
+.clearfix:after {
+height: 0;
+visibility: hidden;
+content: ".";
+display: block;
+clear: both;
+}
+/*-------------end header------------*/
+
+.wrapper{width:100%;height:840px;}
+
+/*------------left side bar------------*/
+
+
+
+
+.left_box3 ul li{border-radius:3px;-moz-border-radius: 3px;
+-webkit-border-radius: 3px;}
+
+
+#listcontents{width:721px;height:142px;float:left;margin-top:10px;margin-left:20px;border-bottom:1px black solid;}
+#listcontents img{display:block;float:left;}
+.listinner{float:left;}
+.listinner ul{ list-style-type:none;}
+.listinner ul li{ float:left;}
+
+img.list{
+  max-height:90px;
+  max-width:90px;
+  width:90px;
+}
